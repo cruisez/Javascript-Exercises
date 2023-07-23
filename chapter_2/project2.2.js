@@ -14,6 +14,6 @@ let lbsTokg = weightInlbs * 0.453592; // converting lbs to kg.
 let heightInmeters = inTocm / 100; // converting cm to meters.
 let bmi = lbsTokg / (heightInmeters ** 2);
 
-console.log(lbsTokg,"and", inTocm);
-console.log(bmi);
+console.log("Weight in kg",lbsTokg,"and", "Height in cm", inTocm);
+console.log("Bmi =", bmi);
 
