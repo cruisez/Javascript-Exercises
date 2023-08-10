@@ -13,21 +13,22 @@ Get the last index value of Pop and output it to the console.*/
 
 let list = [];
 
-list.push("milk", "bread", "apples");
-list.splice(1,1,"bananas","eggs");
-let removeLast = list.pop();
+list.push("milk", "bread", "apples"); // Adding element using push method.
+list.splice(1,1,"bananas","eggs"); // Using splice to add and delete elements from a certain index
+let removeLast = list.pop();// Using pop to remove last element
 console.log(removeLast);
 list.sort();
+console.log(list);
 
-indexValueOfMilk = list.indexOf("milk");
+indexValueOfMilk = list.indexOf("milk");// Using indexOf to find the position of an element
 console.log(indexValueOfMilk);
 
 list.splice(1,0,"carrots", "lettuce");
 
 let drinks = ["juice", "pop"];
-let combinedList = list.concat(drinks, drinks);
+let combinedList = list.concat(drinks, drinks); // Using concat to link to variables.
 
-indexValueOfList2 = combinedList.lastIndexOf("pop");
+indexValueOfList2 = combinedList.lastIndexOf("pop"); // Using lastIndexOf to find the position of an last Element
 
 console.log(indexValueOfList2);
 console.log(combinedList);
