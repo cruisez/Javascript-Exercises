@@ -4,6 +4,7 @@ let val1 = undefined;
 let val2 = null;
 let myNum = 1000;
 
+// Checking the type of variables by using typeof.
 console.log ("str1", typeof str1);
 console.log ("str2", typeof str2);
 console.log ("val1", typeof val1);
